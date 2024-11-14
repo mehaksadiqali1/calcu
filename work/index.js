@@ -1,4 +1,4 @@
-//CALCULATOR PROGRAM
+"use strict"
 
 let currentInput = '';
 
@@ -18,7 +18,7 @@ function calculate() {
     } catch (error) {
         currentInput = 'Error';
         updateDisplay();
-        setTimeout(clearDisplay, 1500); // Clear after 1.5 seconds
+        setTimeout(clearDisplay, 1500); 
     }
 }
 
